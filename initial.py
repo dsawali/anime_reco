@@ -11,7 +11,7 @@ def outputTopNAnime(df, n):
     df = df[df['members'] > 500]
     top_n = df.sort_values(by='rating', ascending=False)
     top_n = top_n.head(n)
-    top_n.to_csv(PATH_OUT+'anime_popular.csv', header=True)
+    top_n.to_csv(PATH_OUT+'anime_popular.csv', header=True, index=False)
 
 
 def main():
