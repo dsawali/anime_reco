@@ -29,7 +29,7 @@ def main():
     anime = anime[anime['members'] > 100]
 
     # output top 1000 most popular anime
-    outputTopNAnime(anime, 100)
+    outputTopNAnime(anime, 250)
 
 
 if __name__ == '__main__':
