@@ -25,7 +25,7 @@ def get_similar_anime(name):
     for i in popular_name_list:
         if(name in i):
             result.append(i)
-    return result           
+    return result
 
 def get_recommendation(name=None, id=None):
     if(id):
